@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  padding: 0 30px;;
+  background-color: #131921;
+}
+header img {
+  width: 100px;
+}
+main {
+  background-color: #EAEDED;
+}
+main img {
+  width: 200px;
+}
+.category {
+  width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+.cards {
+  display: flex;
+
+}
+.card {
+  width: calc(100% / 4 - 20px);
+  margin: 0 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
